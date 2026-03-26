@@ -1,10 +1,3 @@
-# Ex No: 1
-# Date: 
-# Title: BASIC TEXT PROCESSING OPERATION ON TEXT DOCUMENT
-#
-# AIM:
-# To perform basic text processing operations on a given text input, including
-# counting characters, words, lines, and sentences.
 
 import re
 import nltk
