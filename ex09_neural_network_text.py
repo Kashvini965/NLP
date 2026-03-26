@@ -1,10 +1,4 @@
-# Ex No: 9
-# Date: 
-# Title: IMPLEMENTATION OF TEXT PROCESSING USING NEURAL NETWORK
-#
-# AIM:
-# To implement text processing using a neural network model in Python for
-# analyzing and classifying textual data.
+
 
 import numpy as np
 import nltk
