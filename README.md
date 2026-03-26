@@ -5,10 +5,7 @@ import nltk
 from collections import Counter
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer, WordNetLemmatizer
-Ex No:1
-DATE: BASIC TEXT PROCESSING OPERATION ON
 
-TEXT DOCUMENT
 
 from nltk.tokenize import sent_tokenize, word_tokenize
 nltk.download('punkt')
