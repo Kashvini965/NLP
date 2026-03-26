@@ -1,10 +1,3 @@
-# Ex No: 4
-# Date: 
-# Title: WORD EMBEDDING USING WORD2VEC
-#
-# AIM:
-# To train a Word2Vec model and generate word embeddings to find similar words
-# and similarity scores between words.
 
 import sys
 import subprocess
