@@ -1,10 +1,3 @@
-# Ex No: 10
-# Date: 
-# Title: IMPLEMENTATION OF TEXT PROCESSING WITH LSTM
-#
-# AIM:
-# To implement text processing using LSTM model for next word prediction
-# and sentence generation.
 
 import numpy as np
 from tensorflow.keras.preprocessing.text import Tokenizer
