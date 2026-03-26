@@ -1,11 +1,4 @@
-# Ex No: 5
-# Date: 
-# Title: MIMO WITH HYPERPARAMETER OPTIMIZATION
-#
-# AIM:
-# To develop a Multi-Input Multi-Output (MIMO) neural network model with
-# hyperparameter tuning to predict employee performance score and promotion
-# eligibility using TensorFlow and Keras Tuner.
+
 
 import keras_tuner as kt
 import tensorflow as tf
