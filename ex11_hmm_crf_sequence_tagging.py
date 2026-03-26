@@ -1,10 +1,3 @@
-# Ex No: 11
-# Date: 
-# Title: SEQUENCE TAGGING USING HMM AND CRF
-#
-# AIM:
-# To implement sequence tagging using HMM and CRF models for part-of-speech
-# tagging and performance comparison.
 
 import subprocess, sys
 subprocess.check_call([sys.executable, "-m", "pip", "install", "nltk", "sklearn-crfsuite", "-q"])
