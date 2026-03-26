@@ -1,10 +1,4 @@
-# Ex No: 7
-# Date: 
-# Title: IMPLEMENTATION OF K-MEANS CLUSTERING ALGORITHM ON TEXT DATA
-#
-# AIM:
-# To implement K-Means clustering algorithm on text data using Python and group
-# similar text documents into clusters.
+
 
 import pandas as pd
 import matplotlib.pyplot as plt
