@@ -1,14 +1,4 @@
-# Ex No: 12
-# Date: 
-# Title: NLP APPLICATION: MACHINE TRANSLATION
-#
-# AIM:
-# To develop a neural machine translation system using LSTM and PyTorch for
-# automatic language translation and to provide accurate and real-time text
-# translation using NLP techniques.
-#
-# Run: python ex12_machine_translation.py
-# Then open http://127.0.0.1:5000 in your browser.
+
 
 from flask import Flask, request, jsonify
 
