@@ -1,33 +1,19 @@
-# Ex No: 2
-# Date: 
-# Title: IMPLEMENTING N-GRAM LANGUAGE MODEL
-#
-# AIM:
-# To generate n-grams from a given text, calculate their frequency, and compute
-# the probability of each n-gram using a manual NLP approach.
-
-# Input text
 text = "Robots are smart. Robots work quickly."
-
-# Set n for n-gram (1 = unigram, 2 = bigram, 3 = trigram)
 n = 3
-
-
-# Step 1: Tokenization (manual)
 def tokenize(text):
-    # Convert to lowercase
+ 
     text = text.lower()
-    # Replace punctuation with space
+  
     for p in ".,!?;:":
         text = text.replace(p, " ")
-    # Split into words
+   
     return text.split()
 
 
 tokens = tokenize(text)
 
 
-# Step 2: Create n-grams manually
+
 def generate_ngrams(tokens, n):
     ngrams = []
     for i in range(len(tokens) - n + 1):
@@ -37,7 +23,7 @@ def generate_ngrams(tokens, n):
 
 ngram_list = generate_ngrams(tokens, n)
 
-# Step 3: Count frequency
+
 ngram_freq = {}
 for ng in ngram_list:
     if ng in ngram_freq:
@@ -45,7 +31,6 @@ for ng in ngram_list:
     else:
         ngram_freq[ng] = 1
 
-# Step 4: Compute probabilities
 total_ngrams = sum(ngram_freq.values())
 ngram_prob = {}
 for ng, count in ngram_freq.items():
