@@ -1,10 +1,3 @@
-# Ex No: 8
-# Date: 
-# Title: IMPLEMENTATION OF PART-OF-SPEECH (POS) TAGGING ON TEXT
-#
-# AIM:
-# To implement Part-of-Speech (POS) tagging on text using Python and the NLTK
-# library in order to identify the grammatical category of each word in a sentence.
 
 import nltk
 from nltk.tokenize import word_tokenize, sent_tokenize
