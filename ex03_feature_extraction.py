@@ -1,10 +1,4 @@
-# Ex No: 3
-# Date: 
-# Title: FEATURE EXTRACTION FROM TEXT DOCUMENT USING NLP TECHNIQUES
-#
-# AIM:
-# To preprocess text documents and extract features using NLP techniques such as
-# tokenization, Bag of Words, and TF-IDF.
+
 
 import nltk
 import string
